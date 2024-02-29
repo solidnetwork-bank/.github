@@ -8,3 +8,7 @@
 - In **Github** add **SONAR_TOKEN** to the repository secrets in Settings > Actions.
 - In your repository add **sonar-project.properties** and **.github/workflows/build.yml**
 - The workflow runs when add new code to a brach through a code commit or a PR.
+
+## Repositories 
+- https://github.com/solidnetwork-bank/corporate-identity Corporate visual identity: logo, icons, brand, colors
+- https://github.com/solidnetwork-bank/homepage Homepage
