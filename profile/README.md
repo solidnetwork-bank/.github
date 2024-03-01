@@ -12,3 +12,19 @@
 ## Repositories 
 - https://github.com/solidnetwork-bank/corporate-identity Corporate visual identity: logo, icons, brand, colors
 - https://github.com/solidnetwork-bank/homepage Homepage
+
+## Architecture 
+
+![Architecture diagram](https://github.com/solidnetwork-bank/.github/blob/main/profile/Architecture-1.png?raw=true)
+
+### User - Website Architecture
+
+| User | --> | Cloudflare | --> | CloudFront | --> | S3 Bucket | 
+
+### Developer - Website Architecture 
+
+| Developer | --> | GitHub | --> | AWS CodeBuild | --> | S3 Bucket |
+
+### DevOps - Website Architecture 
+
+| DevOps | --> | GitHub | --> | AWS CLI | --> | Stack: CloudFront + AWS Certificate + S3 Bucket + Static Page |
