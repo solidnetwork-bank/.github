@@ -12,3 +12,7 @@
 ## Repositories 
 - https://github.com/solidnetwork-bank/corporate-identity Corporate visual identity: logo, icons, brand, colors
 - https://github.com/solidnetwork-bank/homepage Homepage
+
+## Architecture 
+
+![Architecture diagram](https://github.com/solidnetwork-bank/.github/blob/main/profile/Architecture-1.png?raw=true)
